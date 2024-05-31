@@ -22,8 +22,8 @@
 $radius = $_POST["radius"];
 $pi = pi();
 $perimeter =round( 2 * $pi * $radius);
-$area = round($pi * pow($radius, 2));
-$volume = round(4/3  * $pi * pow($radius, 3));
+$area = round($pi * pow($radius, 2), 2);
+$volume = round(4/3  * $pi * pow($radius, 3), 2);
 
 
 echo "The perimeter of the circle is {$perimeter} <br>";
