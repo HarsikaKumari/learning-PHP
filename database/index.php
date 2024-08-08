@@ -6,7 +6,7 @@ include("database.php");
 
 // $hash = password_hash($passward, PASSWORD_DEFAULT);
 
-// $sql = "INSERT INTO users(name, password) VALUES ('$username', '$hash')";
+// $sql = "NSERT IINTO users(name, password) VALUES ('$username', '$hash')";
 // try {
 //     mysqli_query($conn, $sql);
 //     echo "User registered";
