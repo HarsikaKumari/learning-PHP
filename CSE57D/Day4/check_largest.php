@@ -10,9 +10,6 @@
 
 <body>
 <?php
-// $integer1 = '';
-// $integer2 = '';
-// $integer3 = '';
 $integer1 = $_POST['integer1'] ?? '';
 $integer2 = $_POST['integer2'] ?? '';
 $integer3 = $_POST['integer3'] ?? '';
