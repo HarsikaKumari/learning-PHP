@@ -1,0 +1,47 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<!-- Write a XML Code for the list of the 6 students of your class with there class roll number, name, subject name, course name, subject code,  department name and year.  -->
+
+    <class>
+        <student id="1">
+            <roll_no>1</roll_no>
+            <name>Harsika</name>
+            <subject_name>Math</subject_name>
+            <subject_code>MTH02D</subject_code>
+            <department_name>Polytechnic</department_name>
+        </student>
+        <student id="2">
+            <roll_no>1</roll_no>
+            <name>Harsika</name>
+            <subject_name>Math</subject_name>
+            <subject_code>MTH02D</subject_code>
+            <department_name>Polytechnic</department_name>
+        </student>
+        <student id="3">
+            <roll_no>1</roll_no>
+            <name>Harsika</name>
+            <subject_name>Math</subject_name>
+            <subject_code>MTH02D</subject_code>
+            <department_name>Polytechnic</department_name>
+        </student>
+        <student id="4">
+            <roll_no>1</roll_no>
+            <name>Harsika</name>
+            <subject_name>Math</subject_name>
+            <subject_code>MTH02D</subject_code>
+            <department_name>Polytechnic</department_name>
+        </student>
+        <student id="5">
+            <roll_no>1</roll_no>
+            <name>Harsika</name>
+            <subject_name>Math</subject_name>
+            <subject_code>MTH02D</subject_code>
+            <department_name>Polytechnic</department_name>
+        </student>
+        <student id="6">
+            <roll_no>1</roll_no>
+            <name>Harsika</name>
+            <subject_name>Math</subject_name>
+            <subject_code>MTH02D</subject_code>
+            <department_name>Polytechnic</department_name>
+        </student>
+    </class>
