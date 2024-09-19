@@ -105,3 +105,127 @@ print $i;
 $php = array("Array", "Function", "Strings", "File");
 echo pos($php);
 ?><br>
+<?php
+$a1;
+if ($a1) {
+    echo $a1;
+    echo "hi";
+} else {
+    echo "How are you";
+}
+?><br>
+<?php
+$a = 0;
+while ($a++) {
+    echo "$a";
+}
+echo $a;
+?> <br>
+<?php
+$x = 15;
+$y = 20;
+if ($x < ++$x || $y < ++$y) {
+    echo "Hello World";
+} else {
+    echo "Hii everyone";
+}
+?> <br>
+<?php
+$a = "1";
+switch ($a) {
+    case 1:
+        echo "Hello";
+    case 2:
+        echo "World";
+    default:
+        echo "This is javaTpoint.com";
+}
+?><br>
+<?PHP
+echo CHR(52);
+?><br>
+<?PHP
+echo ORD("HI") . "<br>";
+echo ORD("hi");
+?><br>
+<?PHP
+$arr = array(12, 5, 2);
+echo (ARRAY_PRODUCT($arr));
+?><br>
+<?php
+$foo = 'Bob';
+$bar = &$foo;
+$bar = "My name is $bar";
+echo $bar;
+echo $foo;
+?><br>
+<?php
+$fruits = array("mango", "apple", "pear", "peach");
+$fruits = array_flip($fruits);
+echo ($fruits[0]);
+?> <br>
+<?php
+$Rent = 250;
+function Expenses($Other)
+{
+    $Rent = 250 + $Other;
+    return $Rent;
+}
+Expenses(50);
+echo $Rent . "<br>";
+$company = "ABS Ltd";
+$$company = ",Sydney";
+echo $company, $$company;
+?> <br>
+<?php
+function doSomething(&$arg)
+{
+    $return = $arg;
+    $arg += 1;
+    return $return;
+}
+$a = 3;
+$b = doSomething($a);
+print ($b) . "<br>";
+print ($a) . "<br>";
+
+$x = 5; {
+    $x = 10;
+    echo "$x";
+}
+echo "$x" . "<br>";
+?>
+
+<?php
+$user = array("ashley", "bale", "shrek", "blank");
+for ($x = 0; $x < count($user); $x++) {
+    if ($user[$x] == "shrek") continue;
+    printf($user[$x]) . "<br>";
+}
+
+$score = 1234;
+$scoreboard = (array) $score;
+echo "<br>" . $scoreboard[0] . "<br>";
+?>
+
+<?php
+function track()
+{
+    static $count = 0;
+    $count++;
+    echo $count;
+}
+track();
+track();
+track();
+
+$a = 5;
+$b = 5;
+echo "<br>" . ($a === $b);
+?> <br>
+<?php
+$val = 15;
+// while ($val-- > 2 || ++$val) {
+    print $val;
+// }
+?>
