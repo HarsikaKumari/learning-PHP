@@ -1,0 +1,13 @@
+<?
+session_save_path('C:\xampp\htdocs\Anchal\Session');
+session_start();
+?>
+<html>
+<body>
+<?php
+$arr=array("Anchal","Navya","Tanya");
+$_SESSION["Array"]=$arr;
+print_r($_SESSION["$arr"]);
+?>
+</body>
+</html>
