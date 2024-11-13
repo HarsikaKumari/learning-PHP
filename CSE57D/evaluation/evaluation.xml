@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<studentData>
+	<student id = "1">
+		<firstname gender="female">Harsika</firstname>
+		<lastname>Kumari</lastname>
+		<adress>Jalandhar cantt.</adress>
+		<postal_code>12274</postal_code>
+		<phone_number>7474788447</phone_number>
+		<email_adress>abc@gmail.com</email_adress>
+		<intrest>PHP</intrest>
+		<skill>PHP</skill>
+	</student>
+	
+	<student id = "1">
+		<firstname gender="female">Harsika</firstname>
+		<lastname>Kumari</lastname>
+		<adress>Jalandhar cantt.</adress>
+		<postal_code>12274</postal_code>
+		<phone_number>7474788447</phone_number>
+		<email_adress>abc@gmail.com</email_adress>
+		<intrest>PHP</intrest>
+		<skill>PHP</skill>
+	</student>
+	
+	<student id = "1">
+		<firstname gender="female">Harsika</firstname>
+		<lastname>Kumari</lastname>
+		<adress>Jalandhar cantt.</adress>
+		<postal_code>12274</postal_code>
+		<phone_number>7474788447</phone_number>
+		<email_adress>abc@gmail.com</email_adress>
+		<intrest>PHP</intrest>
+		<skill>PHP</skill>
+	</student>
+	
+	<student id = "1">
+		<firstname gender="female">Harsika</firstname>
+		<lastname>Kumari</lastname>
+		<adress>Jalandhar cantt.</adress>
+		<postal_code>12274</postal_code>
+		<phone_number>7474788447</phone_number>
+		<email_adress>abc@gmail.com</email_adress>
+		<intrest>PHP</intrest>
+		<skill>PHP</skill>
+	</student>
+	
+	<student id = "1">
+		<firstname gender="female">Harsika</firstname>
+		<lastname>Kumari</lastname>
+		<adress>Jalandhar cantt.</adress>
+		<postal_code>12274</postal_code>
+		<phone_number>7474788447</phone_number>
+		<email_adress>abc@gmail.com</email_adress>
+		<intrest>PHP</intrest>
+		<skill>PHP</skill>
+	</student>
+	
+</studentData>
