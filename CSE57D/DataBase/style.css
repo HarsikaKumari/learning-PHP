@@ -1,0 +1,27 @@
+h1{
+text-align:center; 
+font-family:Verdana;
+font-weight:300;
+}
+.container{
+	 width: 40%;
+	 height:50%;
+     border: 3px solid white;
+     padding: 12px;
+	display:flex;
+	justify-content:center;
+	margin:auto;
+	
+}
+
+
+form{
+	border:1px solid;
+	border-radius:5%;
+	text-align:center;
+	padding:24px;
+	margin-top:10px;
+	 box-shadow: 5px 10px;
+	 width:60%;
+	 height:100%;
+}
